@@ -1,10 +1,25 @@
 # Bootstrap IntelliSense
 
-<img src="/assets/images/banner.png"/>
+> [!IMPORTANT]
+> This repository is a fork that I maintain for small fixes and minor upgrades.
+> For the main project and long-term updates, please use the original repository:
+> [https://github.com/aviiceena/bootstrap-intellisense](https://github.com/aviiceena/bootstrap-intellisense)
 
-Bootstrap IntelliSense is a Visual Studio Code extension that enhances the development experience with Bootstrap. It offers CSS class autocompletion, hover previews, sorting classes, and the ability to choose from multiple versions of Bootstrap.
+![Bootstrap IntelliSense](/assets/images/banner.png)
 
-This extension is inspired by the popular Tailwind CSS IntelliSense extension.
+Bootstrap IntelliSense is a Visual Studio Code extension that improves Bootstrap development with class autocompletion, hover previews, and version-aware suggestions.
+
+This fork exists to keep compatibility updates moving quickly while still directing users to the official project.
+
+## Official Extension Links
+
+- Original repository: [https://github.com/aviiceena/bootstrap-intellisense](https://github.com/aviiceena/bootstrap-intellisense)
+- VS Code Marketplace: [https://marketplace.visualstudio.com/items?itemName=hossaini.bootstrap-intellisense](https://marketplace.visualstudio.com/items?itemName=hossaini.bootstrap-intellisense)
+
+## About This Fork
+
+I maintain this fork for targeted fixes and minor Bootstrap-version updates.
+If you are looking for the canonical source, discussions, and broader roadmap, please use the original repository linked above.
 
 ## Installation
 
@@ -21,38 +36,47 @@ The extension will be activated automatically when it's installed.
 ### Smart Autocomplete
 
 Intelligent suggestions for Bootstrap class names.
-Enter a class name and the extension will suggest matching CSS classes, if not than try `ctrl + space` to trigger the autocomplete.
+Start typing a class name and the extension suggests matching classes. If suggestions do not appear, press `Ctrl + Space`.
 
-<img src="/assets/images/autocomplete.png"/>
+![Bootstrap IntelliSense autocompletes class names](/assets/images/autocomplete.png)
 
 ### Class Hover Preview
 
 Just hover over a class name to see a preview of the CSS properties.
 
-<img src="/assets/images/css-hover-preview.png"/>
+![Bootstrap IntelliSense previews CSS properties for class names](/assets/images/css-hover-preview.png)
 
 ### Choose your Bootstrap version
 
 Select the Bootstrap version you are using in your project.
 
-<img src="/assets/images/bootsrap-version.png"/>
+![Bootstrap IntelliSense allows Bootstrap version selection](/assets/images/bootsrap-version.png)
+
+### Class Sorting
+
+Sort class lists to keep markup cleaner and easier to scan.
+
+![Bootstrap IntelliSense class sorting](/assets/images/sort.png)
 
 ### Add Custom Language Support
 
 Add custom language support for Bootstrap classes.
 
-<img src="/assets/images/custom-language-support.png"/>
+![Bootstrap IntelliSense allows custom language support for Bootstrap classes](/assets/images/custom-language-support.png)
 
 ## Known Issues
 
-If you encounter any errors or have suggestions for improvement, please feel free to contact me at Hossainih03@gmail.com. I appreciate your feedback and will do my best to address any issues you may have. Thank you in advance!
+If you find a bug related to this fork, open an issue in this repository.
+For official extension issues and feature requests, please use:
+[https://github.com/aviiceena/bootstrap-intellisense/issues](https://github.com/aviiceena/bootstrap-intellisense/issues)
 
 ## Contributing
 
-Contributions are welcome! If you would like to add new features or make improvements to the project, feel free to fork the repository and submit your changes via pull requests. Your contributions will be highly appreciated and will help make the project even better. Thank you in advance for your interest in contributing!
+Contributions to this fork are welcome for minor fixes, compatibility updates, and maintenance improvements.
+If your contribution is larger in scope, please consider opening it against the original repository.
 
 ## Requirements
 
-This extension requires VSCode version 1.67.1 or higher.
+This extension requires VS Code version `1.67.1` or higher.
 
 Enjoy!
